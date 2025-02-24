@@ -3,7 +3,7 @@
 
 This repository contains the implementation of [**Graph Assisted Offline-Online Deep Reinforcement Learning (GOODRL) for Dynamic Workflow Scheduling (DWS)**](https://openreview.net/forum?id=4PlbIfmX9o), which addresses the dynamic workflow scheduling problem. The paper introduces three key innovations in <font color="green"><b>dynamic graph representations</b></font>, <font color="green"><b>decoupled Actor-Critic encoders for RL stability</b></font>, and <font color="green"><b>training methods for unpredictable changes</b></font>.
 
-## Citation
+## Citation 🤩
 
 If you find GOODRL helpful for your research or applied projects:
   ```bibtex
@@ -15,11 +15,11 @@ If you find GOODRL helpful for your research or applied projects:
   }
   ```
 
-## Requirements
+## Requirements 🖥️
 
-- Python 3.11.5
-- PyTorch 2.4.1
-- PyTorch Geometric 2.5.3
+- Python >= 3.11.5
+- PyTorch >= 2.4.1
+- PyTorch Geometric >= 2.5.3
 
 Install dependencies:
 ```bash
@@ -42,7 +42,7 @@ pip install rl-zoo3 deap torch_geometric gym joblib openpyxl
 > meanFlowTimes = Parallel(n_jobs=-1)(delayed(validation_H)(t, configs) for t in range(configs.valid_num))
 > ```
 
-## How to Use the Code
+## How to Use the Code 🤔
 
 ### Offline Phase – Imitation Learning
 Run the following command for offline imitation learning:
@@ -71,11 +71,11 @@ Additionally:
 - `mainGP.py` is the training script for GPHH.
 - `mainESRL.py` is the training script for ESRL.
 
-## Future Updates
+## Future Updates ✨
 
 The code and documentation will be continuously updated, including multi-objective versions and applications in FJSS environments. For any inquiries, feel free to contact us via [💌](mailto:yifanyang@ecs.vuw.ac.nz).
 
-## Acknowledgements
+## Acknowledgements 🫡
 
 The implementation references the following works:
 - **L2D**: [Learning to Dispatch for Job Shop Scheduling via Deep Reinforcement Learning](https://github.com/zcaicaros/L2D)
