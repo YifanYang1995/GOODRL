@@ -7,8 +7,7 @@ This repository contains the implementation of [**Graph Assisted Offline-Online 
 
 If you find GOODRL helpful for your research or applied projects:
   ```bibtex
-  @InProceedings{
-      yang2025graph,
+  @InProceedings{yang2025graph,
       title={Graph Assisted Offline-Online Deep Reinforcement Learning for Dynamic Workflow Scheduling},
       author={Yang, Yifan and Chen, Gang and Ma, Hui and Zhang, Cong and Cao, Zhiguang and Zhang, Mengjie},
       booktitle={International Conference on Learning Representations},
