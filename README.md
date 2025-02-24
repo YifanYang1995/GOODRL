@@ -1,16 +1,7 @@
 
 # [ICLR 2025] Graph Assisted Offline-Online Deep Reinforcement Learning for Dynamic Workflow Scheduling
 
-This repository contains the implementation of [**Graph Assisted Offline-Online Deep Reinforcement Learning for Dynamic Workflow Scheduling**](https://openreview.net/forum?id=4PlbIfmX9o), which addresses the dynamic workflow scheduling problem. The paper introduces three key innovations in graph representation, network architecture, and training method:
-
-1. **Dynamic Graph Representations**  
-Unlike existing methods that rely on static graphs, this work introduces dynamic graph representations to effectively capture the time-varying relationships among completed, ongoing, and newly arrived workflows, while simultaneously tracking real-time machine status. This design ensures a comprehensive and up-to-date view of the scheduling environment.  
-
-2. **Decoupled Actor-Critic Encoders for RL Stability**  
-In most prior studies, the actor and critic share the same feature extraction layers and rely on the same state input. Instead, we propose a new actor-critic architecture that allows the actor and the critic to process different state representations. In this way, the actor is tailored to distinguishing important actions. The critic focuses on processing the state information at the global scale. The effectiveness of this new architecture and its advantageous over other competing approaches have been verified experimentally on a range of large and dynamic scheduling scenarios.  
-
-3. **Adaptive Mechanisms for Unpredictable Changes**  
-Unlike many previous works that apply existing RL algorithms without problem-specific modifications, we propose a novel offline-online learning method to achieve reliable online improvement of the actor during the daily operation of the scheduler, significantly enhancing the actor's adaptability and performance on large and dynamic scheduling problems.
+This repository contains the implementation of [**Graph Assisted Offline-Online Deep Reinforcement Learning (GOODRL) for Dynamic Workflow Scheduling (DWS)**](https://openreview.net/forum?id=4PlbIfmX9o), which addresses the dynamic workflow scheduling problem. The paper introduces three key innovations in <font color="green"><b>dynamic graph representations</b></font>, <font color="green"><b>decoupled Actor-Critic encoders for RL stability</b></font>, and <font color="green"><b>training methods for unpredictable changes</b></font>.
 
 ## Citation
 
