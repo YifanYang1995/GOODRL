@@ -76,7 +76,7 @@ Additionally:
 
 ## ✨ Future Updates
 
-The code and documentation will be continuously updated, including multi-objective versions and applications in FJSS environments. For any inquiries, feel free to contact us via [💌](mailto:yifanyang@ecs.vuw.ac.nz).
+The code and documentation will be continuously updated, including multi-objective versions and applications in FJSS environments. For any inquiries, feel free to contact us via [💌](mailto:yang.yifan@ntu.edu.sg).
 
 ## 🫡 Acknowledgements
 
