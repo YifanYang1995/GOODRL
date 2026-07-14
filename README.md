@@ -3,6 +3,9 @@
 
 This repository contains the implementation of [**Graph Assisted Offline-Online Deep Reinforcement Learning (GOODRL) for Dynamic Workflow Scheduling (DWS)**](https://openreview.net/forum?id=4PlbIfmX9o), which addresses the dynamic workflow scheduling problem. The paper introduces three key innovations in <font color="green"><b>dynamic graph representations</b></font>, <font color="green"><b>decoupled Actor-Critic encoders for RL stability</b></font>, and <font color="green"><b>training methods for unpredictable changes</b></font>.
 
+## 🧪 Evaluation Testbed
+
+For reproducible evaluation of Dynamic Workflow Scheduling methods, see [**DWS-Testbed**](https://github.com/YifanYang1995/DWS-Testbed). It provides a cleaned test environment with EST, PEFT, HEFT, GPHH, ERL-DWS, and GOODRL evaluators, bundled pretrained artifacts, deterministic workflow-instance generation, seed-42 reference results, and a portable SLURM submission example.
 ## 🤩 Citation 
 
 If you find GOODRL helpful for your research or applied projects:
