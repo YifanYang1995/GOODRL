@@ -6,6 +6,7 @@ This repository contains the implementation of [**Graph Assisted Offline-Online 
 ## 🧪 Evaluation Testbed
 
 For reproducible evaluation of Dynamic Workflow Scheduling methods, see [**DWS-Testbed**](https://github.com/YifanYang1995/DWS-Testbed). It provides a cleaned test environment with EST, PEFT, HEFT, GPHH, ERL-DWS, and GOODRL evaluators, bundled pretrained artifacts, deterministic workflow-instance generation, seed-42 reference results, and a portable SLURM submission example.
+For a deadline-constrained DWS environment variant that uses total cost as its objective, see [**Simulator-DCDWSC**](https://github.com/YifanYang1995/Simulator-DCDWSC).
 ## 🤩 Citation 
 
 If you find GOODRL helpful for your research or applied projects:
